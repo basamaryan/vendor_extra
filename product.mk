@@ -10,7 +10,7 @@ PRODUCT_COPY_FILES += \
 # Google Apps
 ifneq ($(BUILD_VANILLA), true)
 WITH_GMS := true
-$(call inherit-product, vendor/gms/products/gms.mk)
+GMS_MAKEFILE := gms.mk
 $(call inherit-product, vendor/extra/pixel-framework/config.mk)
 
 PRODUCT_PRODUCT_PROPERTIES += \
