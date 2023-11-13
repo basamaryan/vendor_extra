@@ -1,3 +1,6 @@
+# Clocks
+$(call inherit-product, vendor/SystemUIClocks/product.mk)
+
 # Fonts
 PRODUCT_COPY_FILES += \
     vendor/extra/prebuilt/common/fonts/GoogleSansClock-Regular.ttf:$(TARGET_COPY_OUT_PRODUCT)/fonts/GoogleSansClock-Regular.ttf \
