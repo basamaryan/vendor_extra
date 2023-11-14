@@ -29,7 +29,8 @@ endif
 # Overlay
 PRODUCT_PACKAGES += \
     ExtraFrameworksResTarget \
-    ExtraSettingsResTarget
+    ExtraSettingsResTarget \
+    ExtraSystemUIResTarget
 
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += vendor/extra/overlay
 DEVICE_PACKAGE_OVERLAYS += vendor/extra/overlay/common
